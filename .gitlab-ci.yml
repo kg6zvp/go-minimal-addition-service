@@ -1,4 +1,4 @@
-image: 'golang:alpine'
+image: 'golang:1.10-alpine'
 
 stages:
   - test
@@ -6,4 +6,4 @@ stages:
 test:
   stage: test
   script:
-    - # What???
+    - go test
